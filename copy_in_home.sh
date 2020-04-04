@@ -1,2 +1,2 @@
 #!/bin/sh
-cp unix/.* $HOME
+cp unix/.* $HOME 2> /dev/null
