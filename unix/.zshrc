@@ -102,6 +102,9 @@ bindkey -v
 # Make Vi mode transitions faster (KEYTIMEOUT is in hundredths of a second)
 export KEYTIMEOUT=1
 
+# Pip alias
+alias pipr='pip install -r requirements.txt'
+alias pipe='pip install -e .'
 
 source ~/anaconda3/bin/activate
 conda activate rch
