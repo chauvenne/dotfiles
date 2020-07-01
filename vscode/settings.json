@@ -33,5 +33,11 @@
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.value": 7,
     "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        88
+    ],
+    "python.formatting.provider": "black",
+    "files.autoSave": "off",
 }
 
