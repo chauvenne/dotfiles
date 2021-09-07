@@ -2,12 +2,14 @@
 
 Run the script to copy all the dotfiles into your local home folder:
 
-`./bootstrap.sh`
+`./update.sh`
 
 ## Requirements
 
 * zsh: `# apt install zsh`
-  * [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-  * [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-  * [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+* oh-my-zsh: `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 * [anaconda](https://github.com/conda/conda)
+
+Other requirements can be installed using the install script:
+
+`./install.sh`
