@@ -1,3 +1,4 @@
 {
+    "editor.lineNumbers": "relative",
     "terminal.integrated.fontFamily": "Ubuntu mono derivative Powerline",
 }
